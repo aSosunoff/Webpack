@@ -5,9 +5,31 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch index.html 02_several_scripts",
+            // "url": "${workspaceFolder}/02_several_scripts/index.html",
+            // "webRoot": "${workspaceFolder}/02_several_scripts/src",
+            //"sourceMaps": true,
+            "file": "${workspaceFolder}/02_several_scripts/public/index.html"
+            //"webRoot": "${workspaceFolder}/02_several_scripts/src",
+            // "sourceMapPathOverrides": {
+            //     "webpack:///src/*": "${webRoot}/*",
+            // },
+            //"url": "http://localhost:8080",
+            //"url": "${workspaceFolder}/02_several_scripts/index.html",
+            // "sourceMapPathOverrides": {
+            //     "webpack:///*": "/*",
+            // },
+            //"trace": true
+        },
+
+
+
+        {
             "type": "node",
             "request": "launch",
-            "name": "build",
+            "name": "build Webpack 01_simple_build",
             "program": "${workspaceFolder}/01_simple_build/node_modules/webpack-cli/bin/cli",
             "args": [
                 "--config",
@@ -19,7 +41,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Webpack",
+            "name": "Launch Webpack 01_simple_build",
             "program": "${workspaceFolder}/01_simple_build/node_modules/webpack/bin/webpack.js",
             "args": [
                 "--config", "./01_simple_build/webpack.config.js"
