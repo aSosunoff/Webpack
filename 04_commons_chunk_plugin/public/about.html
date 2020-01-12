@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Назад</a>
+    <div id="about"></div>
+    <script src="./dist/webpack_head.js"></script>
+    <script src="./dist/vendors.js"></script>
+    <script src="./dist/common.js"></script>
+    <script src="./dist/about.js"></script>
+    <script>
+        document.getElementById('about').textContent = about.SayHelloAbout();
+    </script>
+</body>
+</html>
