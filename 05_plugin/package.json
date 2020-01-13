@@ -1,0 +1,30 @@
+{
+  "name": "01-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "b_dev": "SET NODE_ENV=development&&.\\node_modules\\.bin\\webpack --display-modules",
+    "b_prod": "SET NODE_ENV=production&&.\\node_modules\\.bin\\webpack --display-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "moment-locales-webpack-plugin": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "moment": "^2.24.0"
+  },
+  "optionalDependencies": {}
+}
