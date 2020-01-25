@@ -11,7 +11,7 @@
             // "url": "${workspaceFolder}/02_several_scripts/index.html",
             // "webRoot": "${workspaceFolder}/02_several_scripts/src",
             //"sourceMaps": true,
-            "file": "${workspaceFolder}/02_several_scripts/public/index.html"
+            "file": "${workspaceFolder}/screencast-learn-js/02_several_scripts/public/index.html"
             //"webRoot": "${workspaceFolder}/02_several_scripts/src",
             // "sourceMapPathOverrides": {
             //     "webpack:///src/*": "${webRoot}/*",
@@ -30,10 +30,10 @@
             "type": "node",
             "request": "launch",
             "name": "build Webpack 01_simple_build",
-            "program": "${workspaceFolder}/01_simple_build/node_modules/webpack-cli/bin/cli",
+            "program": "${workspaceFolder}/screencast-learn-js/01_simple_build/node_modules/webpack-cli/bin/cli",
             "args": [
                 "--config",
-                "./01_simple_build/webpack.config.js"
+                "./screencast-learn-js/01_simple_build/webpack.config.js"
             ],
             "autoAttachChildProcesses": true,
             "stopOnEntry": true,
@@ -42,9 +42,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Webpack 01_simple_build",
-            "program": "${workspaceFolder}/01_simple_build/node_modules/webpack/bin/webpack.js",
+            "program": "${workspaceFolder}/screencast-learn-js/01_simple_build/node_modules/webpack/bin/webpack.js",
             "args": [
-                "--config", "./01_simple_build/webpack.config.js"
+                "--config", "./screencast-learn-js/01_simple_build/webpack.config.js"
             ],
             "env" : { 
                 "NODE_ENV" : "production"
