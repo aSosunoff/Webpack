@@ -20,7 +20,6 @@ module.exports = {
     },
 
     resolve: {
-        //extensions: [],
         alias:{
             '@model': path.resolve(__dirname, 'src/model'),
             '@style': path.resolve(__dirname, 'src/styles'),
