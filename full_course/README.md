@@ -3,3 +3,4 @@
 3. begin_plugin
 4. begin_context
 5. begin_assets
+6. begin_resolve
