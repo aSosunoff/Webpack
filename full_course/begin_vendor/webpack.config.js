@@ -29,6 +29,26 @@ module.exports = {
         }
     },
 
+    optimization: {
+        // noEmitOnErrors: true,
+        // runtimeChunk: {
+        //     name: 'webpack_head'//entrypoint => `runtime~${entrypoint.name}`
+        // },
+        splitChunks: {
+            chunks: 'all',
+            // minSize: 1,
+            // minChunks: 2,
+            // name: 'common',
+            // cacheGroups: {
+            //     vendor: {
+            //         test: /[\\/]node_modules[\\/]/,
+            //         name: 'vendors',
+            //         chunks: 'all'
+            //     }
+            // },
+        }
+    },
+
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html'
