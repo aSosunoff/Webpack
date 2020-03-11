@@ -1,3 +1,8 @@
 {
-    "name": "Hi i am  a JSON"
+    "name": "Hi i am  a JSON",
+    "values": [
+        {"name": "Hi i am  a JSON"},
+        {"name": "Hi i am  a JSON"},
+        {"name": "Hi i am  a JSON"}
+    ]
 }

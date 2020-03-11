@@ -40,6 +40,14 @@ module.exports = {
             {
                 test: /\.(ttf|woff|woff2|eot)$/i,
                 use: ['file-loader']
+            },
+            {
+                test: /\.xml$/i,
+                use: ['xml-loader']
+            },
+            {
+                test: /\.csv$/i,
+                use: ['csv-loader']
             }
         ]
     }
