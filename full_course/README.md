@@ -10,3 +10,4 @@
 10. mini-css-extract
 11. css-preproc
 12. babel
+13. type-script
