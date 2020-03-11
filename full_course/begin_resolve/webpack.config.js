@@ -19,6 +19,16 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),   
     },
 
+    resolve: {
+        extensions: [],
+        alias:{
+            '@model': path.resolve(__dirname, 'src/model'),
+            '@style': path.resolve(__dirname, 'src/styles'),
+            '@assets': path.resolve(__dirname, 'src/assets'),
+            '@': path.resolve(__dirname, 'src'),
+        }
+    },
+
     plugins: [
         new HTMLWebpackPlugin({
             template: './index.html'
