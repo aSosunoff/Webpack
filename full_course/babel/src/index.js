@@ -9,6 +9,8 @@ import WebpackLogo from '@assets/logo.png';
 import xml from '@assets/data.xml';
 import csv from '@assets/data.csv';
 
+import '@/babel.js';
+
 
 const post = new Post('Webpack Post Title', WebpackLogo);
 $('pre').addClass('code').html(post.toString());

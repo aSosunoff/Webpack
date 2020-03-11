@@ -66,7 +66,7 @@ module.exports = {
 	mode: isDev ? "development" : "production",
 
 	entry: {
-		main: "./index.js",
+		main: ["@babel/polyfill", "./index.js"],
 		analytics: "./analytics.js"
 	},
 
@@ -135,6 +135,21 @@ module.exports = {
 				test: /\.csv$/i,
 				use: ["csv-loader"]
 			},
+			{ 
+				test: /\.js$/, 
+				exclude: /node_modules/, 
+				loader: {
+					loader: "babel-loader",
+					options: {
+						presets: [
+							'@babel/preset-env'
+						],
+						plugins: [
+							"@babel/plugin-proposal-class-properties"
+						]
+					}
+				},
+			}
 		]
 	}
 };
