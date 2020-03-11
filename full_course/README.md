@@ -9,3 +9,4 @@
 9. copy-webpack
 10. mini-css-extract
 11. css-preproc
+12. babel
