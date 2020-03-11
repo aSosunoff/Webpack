@@ -5,4 +5,5 @@
 5. assets
 6. resolve
 7. vendore
-7. dev-server
+8. dev-server
+9. copy-webpack
