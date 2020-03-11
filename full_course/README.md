@@ -7,3 +7,5 @@
 7. vendore
 8. dev-server
 9. copy-webpack
+10. mini-css-extract
+11. css-preproc
