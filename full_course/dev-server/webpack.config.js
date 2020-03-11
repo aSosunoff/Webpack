@@ -20,13 +20,17 @@ module.exports = {
     },
 
     resolve: {
-        extensions: [],
+        //extensions: [],
         alias:{
             '@model': path.resolve(__dirname, 'src/model'),
             '@style': path.resolve(__dirname, 'src/styles'),
             '@assets': path.resolve(__dirname, 'src/assets'),
             '@': path.resolve(__dirname, 'src'),
         }
+    },
+
+    devServer: {
+        port: 3000
     },
 
     optimization: {

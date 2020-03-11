@@ -11,7 +11,7 @@ import csv from '@assets/data.csv';
 
 
 const post = new Post('Webpack Post Title', WebpackLogo);
-$('.post-json').html(post.toString());
+$('pre').addClass('code').html(post.toString());
 
 console.log('JSON', json);
 console.log('XML', xml);
