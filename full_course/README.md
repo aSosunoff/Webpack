@@ -15,3 +15,4 @@
 15. devtool
 16. eslint
 17. dynamic-import-lodash
+18. webpack-bundle-analyzer
