@@ -12,3 +12,4 @@
 12. babel
 13. type-script
 14. react
+15. devtool
