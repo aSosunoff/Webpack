@@ -14,3 +14,4 @@
 14. react
 15. devtool
 16. eslint
+17. dynamic-import-lodash
